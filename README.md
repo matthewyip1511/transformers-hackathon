@@ -20,6 +20,7 @@ Step 3: Train the model with sample messages and their labelled urgencies
 
 
 Step 4: Test the model with user-generated messages to check its accuracy
+
 ![image](https://user-images.githubusercontent.com/95226664/198883444-ccf1a274-5920-4301-ab49-79adc48dc854.png)
 
 **Urgency levels we chose to adopt:**
