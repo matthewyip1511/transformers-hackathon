@@ -10,6 +10,8 @@ We created this telegram bot to overcome this challange. We made use of the text
 **How we created the telegram bot:**
 
 Step 1: Create a bot using telegram botfather and obtain the unique API token 
+![image](https://user-images.githubusercontent.com/95226664/198872427-14e0304d-929f-46df-8930-74882dafa574.png)
+
 
 Step 2: Obtain OpenAI API key to access GPT-3 models
 
