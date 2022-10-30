@@ -9,3 +9,5 @@ We created this telegram bot to overcome this challange. We made use of the text
 
 
 
+Steps to use the COVID-19 Response (Hackathon Testing) Bot) 
+![image](https://user-images.githubusercontent.com/95226664/198871635-dae5daf5-c428-45fe-a70b-7a755d05cd5d.png)
