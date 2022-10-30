@@ -10,8 +10,11 @@ We created this telegram bot to overcome this challange. We made use of the text
 **How we created the telegram bot:**
 
 Step 1: Create a bot using telegram botfather and obtain the unique API token 
+
 Step 2: Obtain OpenAI API key to access GPT-3 models
+
 Step 3: Train the model with sample messages and their labelled urgencies
+
 Step 4: Test the model with user-generated messages to check its accuracy
 
 **Urgency levels we chose to adopt:**
