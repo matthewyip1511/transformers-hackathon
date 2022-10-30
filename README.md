@@ -7,7 +7,22 @@ Back in 2021, Singapore faced a surge of COVID-19 cases that overwhelmed the Min
 
 We created this telegram bot to overcome this challange. We made use of the text classification ability of GPT-3 to classify incoming messages to the bot based on their urgency levels, and the right level of assistance would then be provided. 
 
+How we created the telegram bot:
+Step 1: Create a bot using telegram botfather and obtain the unique API token 
+Step 2: Obtain OpenAI API key to access GPT-3 models
+Step 3: Train the model with sample messages and their labelled urgencies
+Step 4: Test the model with user-generated messages to check its accuracy
 
+Urgency levels we chose to adopt:
+0 - Spam, nonsense messages. Unrelated to health issues.
+Eg. What is your favourite colour?
 
-Steps to use the COVID-19 Response (Hackathon Testing) Bot) 
-![image](https://user-images.githubusercontent.com/95226664/198871635-dae5daf5-c428-45fe-a70b-7a755d05cd5d.png)
+1 - User needs help but it is not time-critical at all, users can read the answers themselves on the Ministry of Health website
+Eg. What is the covid situation in Singapore now?
+
+2 - User needs help but help can be provided through an automated chatbot / text
+Eg. A family member is sick with Covid at home, can I still go to work? 
+
+3 - User has serious issues that require the immediate attention of a call centre
+Eg. My throat hurts really badly.. where do I go?
+
