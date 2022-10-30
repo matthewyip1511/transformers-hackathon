@@ -45,11 +45,9 @@ def texts(update: Update, context: CallbackContext):
       presence_penalty=0
     )
 
-
+    #to interpret the data and determine the urgency based on the input text
     response_dict = json.loads(str(response))
-    print('response dict is', response_dict)
     urgency = int(response_dict['choices'][0]['text'])
-    print(urgency)
 
     if urgency == 0:
         update.message.reply_text("Please enter a valid message\neg. What are the symptoms of Covid?")
@@ -63,11 +61,7 @@ def texts(update: Update, context: CallbackContext):
     elif urgency == 3:
         update.message.reply_text("Please hold on and do not leave your house. An assistant would be calling you shortly.")
         
-
-    print('reply given to user!')
-
-
-  
+        
 def unknown_text(update: Update, context: CallbackContext):
     update.message.reply_text(
         "Sorry I can't recognize you , you said '%s'" % update.message.text)
