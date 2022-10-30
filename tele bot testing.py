@@ -52,7 +52,7 @@ def texts(update: Update, context: CallbackContext):
     print(urgency)
 
     if urgency == 0:
-        update.message.reply_text("Please enter a valid message")
+        update.message.reply_text("Please enter a valid message \n eg. What are the symptoms of Covid?")
 
     elif urgency == 1:
         update.message.reply_text("You will be able to seek the answer to this query on the MOH website at \nmoh.gov.sg/faqs")
