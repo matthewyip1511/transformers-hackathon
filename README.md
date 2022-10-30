@@ -1,4 +1,4 @@
-# hackathon
+# An Intro to our telegram bot
 Hello!
 
 We created this bot drawing inspiration from the COVID-19 pandemic in Singapore. 
