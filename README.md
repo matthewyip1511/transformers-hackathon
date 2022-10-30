@@ -10,12 +10,14 @@ We created this telegram bot to overcome this challange. We made use of the text
 **How we created the telegram bot:**
 
 Step 1: Create a bot using telegram botfather and obtain the unique API token 
-![image](https://user-images.githubusercontent.com/95226664/198872427-14e0304d-929f-46df-8930-74882dafa574.png)
-
+![image](https://user-images.githubusercontent.com/95226664/198872494-a8cec197-3156-4114-bf15-3ba07d53c5df.png)
 
 Step 2: Obtain OpenAI API key to access GPT-3 models
+![image](https://user-images.githubusercontent.com/95226664/198872427-14e0304d-929f-46df-8930-74882dafa574.png)
 
 Step 3: Train the model with sample messages and their labelled urgencies
+![image](https://user-images.githubusercontent.com/95226664/198872648-e3a36aec-f3e6-4990-b017-2446bba7eeef.png)
+
 
 Step 4: Test the model with user-generated messages to check its accuracy
 
