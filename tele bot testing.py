@@ -23,7 +23,7 @@ def start(update: Update, context: CallbackContext):
 
 def help(update: Update, context: CallbackContext):
     #tells the user what the bot is about and what they can do with it
-    update.message.reply_text("For common questions regarding COVID-19 in Singapore, do read the latest information on the MOH website")
+    update.message.reply_text("This bot can be used for questions / queries regarding COVID-19.")
 
   
 def unknown(update: Update, context: CallbackContext):
