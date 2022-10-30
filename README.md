@@ -1,4 +1,4 @@
-# An Intro to our telegram bot
+# An Intro to our Telegram Bot
 Hello!
 
 We created this bot drawing inspiration from the COVID-19 pandemic in Singapore. 
