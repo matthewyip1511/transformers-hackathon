@@ -11,7 +11,7 @@ import json
 import os
 import openai
 
-updater = Updater("MY_TELEGRAM_BOT_KEY",
+updater = Updater("MY_TELE_BOT_ID",
                   use_context=True)
   
 def start(update: Update, context: CallbackContext):
