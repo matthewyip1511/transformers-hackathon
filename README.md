@@ -14,6 +14,7 @@ Step 3: Train the model with sample messages and their labelled urgencies
 Step 4: Test the model with user-generated messages to check its accuracy
 
 Urgency levels we chose to adopt:
+
 0 - Spam, nonsense messages. Unrelated to health issues.
 Eg. What is your favourite colour?
 
