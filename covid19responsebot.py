@@ -6,8 +6,6 @@ from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
 import datetime
 import json
-
-#GPT-3 AI testing
 import os
 import openai
 
